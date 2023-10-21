@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/Google_Tests_run_template1.dir/tests/main.cpp.o CMakeFiles/Google_Tests_run_template1.dir/tests/test_fib.cpp.o -o Google_Tests_run_template1  lib/libgtest.a lib/libgmock.a lib/libgtest_main.a lib/libgmock_main.a lib/libgmock.a lib/libgtest.a 

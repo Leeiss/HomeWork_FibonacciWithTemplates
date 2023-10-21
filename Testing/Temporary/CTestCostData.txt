@@ -1,0 +1,16 @@
+Google_Tests_run_template1_NOT_BUILT 0 0
+HelloTest.BasicAssertions0 3 0.00678374
+HelloTest.BasicAssertions1 3 0.00709157
+HelloTest.BasicAssertions2 3 0.00558902
+HelloTest.BasicAssertions3 3 0.00812241
+HelloTest.BasicAssertions10 3 0.00798701
+HelloTest.BasicAssertions35 3 0.0112544
+HelloTest.BasicAssertions30 3 0.00888181
+HelloTest.BasicAssertionsf0 3 0.00840764
+HelloTest.BasicAssertionsf1 3 0.00864678
+HelloTest.BasicAssertionsf2 3 0.00757769
+HelloTest.BasicAssertionsf3 3 0.00647525
+HelloTest.BasicAssertionsf10 3 0.00633032
+HelloTest.BasicAssertionsf35 3 0.0109125
+HelloTest.BasicAssertionsf30 3 0.00735282
+---
