@@ -1,9 +1,9 @@
 #pragma once
 
-template <int N>
+template <int T>
 class Fibonacci {
 public:
-    static constexpr int value = Fibonacci<N - 1>::value + Fibonacci<N - 2>::value;
+    static constexpr int value = Fibonacci<T - 1>::value + Fibonacci<T - 2>::value;
 };
 
 template <>
@@ -18,9 +18,17 @@ public:
     static constexpr int value = 0;
 };
 
-template <int N>
-constexpr int fibonacci() {
-    return Fibonacci<N>::value;
+template <int T>
+constexpr int fibonacci(){
+    return fibonacci<T-1>() + fibonacci<T-2>();
+}
+template <>
+constexpr int fibonacci<0>(){
+    return 0;
+}
+template <>
+constexpr int fibonacci<1>(){
+    return 1;
 }
 
 
